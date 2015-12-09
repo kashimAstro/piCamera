@@ -1,19 +1,13 @@
 #!/bin/bash
 
 # CONFIGURE
-WEB='index.php'
-HOST='ftp.ziggurats.net'                        # set this
-USER="1849950@aruba.it"                         # set this
-PASSWD="brush1987"                              # set this
-ROOT='/www.ziggurats.net/image_house_scanner/'  # set this
-
-#HOST='ftp.example.net'	 			# set this
-#USER="username"					# set this
-#PASSWD="password"       			# set this
-#ROOT='/path/webserver/'				# set this
+HOST='ftp.example.net'	 			# set this
+USER="username"					# set this
+PASSWD="password"       			# set this
+ROOT='/path/webserver/'				# set this
 
 # SCRIPT EXEC
-
+WEB='index.php'
 DATE=`curl --silent www.ziggurats.net/orario.php`
 data=`echo $DATE | cut -f 1 -d' '`
 ora=`echo $DATE | cut -f 2 -d' '`
