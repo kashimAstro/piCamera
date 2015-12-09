@@ -4,8 +4,8 @@ configure raspberry pi:
 <pre>sudo apt-get install ftp curl raspistill unzip wget
 raspi-config: [enable camera module]
 cd /home/pi/
-wget hithub/piCamera.zip
-unzip piCamera.zip</pre>
+wget https://github.com/kashimAstro/piCamera/archive/master.zip 
+unzip master.zip</pre>
 
 ![alt tag](https://github.com/kashimAstro/piCamera/blob/master/pi.jpg)
 ![alt tag](https://github.com/kashimAstro/piCamera/blob/master/modpi.jpg)
